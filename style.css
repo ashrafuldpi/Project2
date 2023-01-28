@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home_main{
+    padding-top: 15px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.navbar{
+    margin-top: 15px;
+    width: 620px;    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;    
+    justify-content: space-between;
+   
+      
+    
+}
+
+.navbar a{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    opacity: .7;
+}
+
+.home_div_1{
+    margin-top: 120px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 26px;
+    display: flex; 
+    justify-content: center;
+}
+
+.home_div_2{
+    margin-top: 30px;    
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 110px;
+    font-weight: bold;    
+}
+
+.image_div{
+    margin-top: 65px;
+    width: 760px;
+    height: 800px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.text1{
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: 400;    
+    width: 720px;  
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.about_me{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    height: 60px;
+    width: 150px;
+    border-radius: 60px;    
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.body_main{
+    margin-top: 200px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+
+}
+
+.body_left{
+    width: 520px;
+}
+
+.body_left>h3{
+    font-weight: 400;
+    
+}
+
+.body_left>p{
+    font-size: 45px;
+    
+}
+
+.body_right{
+    width: 520px;
+    
+}
+
+.body_right>h3{
+    font-weight: 400;
+}
+
+.body_right>p{
+    font-size: 20px;
+    font-weight: 300;
+    width: 320px;
+    margin-bottom: 80px;    
+}
+
+.stories_div{
+background-color: aliceblue;
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 200px;
+padding: 100px 0;
+}
+
+
+.stories_div_left{    
+    width: 520px;
+}
+.stories_div_left>h3{
+    font-weight: 400;
+}
+
+.stories_div_left>h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.stories_div_left>p{
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.stories_div_left>h4{
+    margin-top: 30px;
+    font-weight: 420;
+    opacity: .9;
+    
+    
+}
+
+.stories_div_right{    
+    width: 520px;    
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+    
+}
+
+.stories_div_right>p{
+    font-size: 20px;
+    font-weight: 350;
+}
+.stories_div_right>h4{
+    margin-top: 30px;
+    font-weight: 420;
+    opacity: .9;   
+    
+}
+
+.phylosophy{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    width: 100%; 
+    padding-top: 90px; 
+    padding-bottom: 35px;
+
+
+}
+
+.phylosophy> h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+.phylosophy> p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 35px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.phylosophy> a{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    border-radius: 60px;    
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    border: 1px solid white;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer_left{
+    width: 7200px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_left >div>h1{
+ font-weight: 400;
+}
+
+.footer_left >div>p{
+    font-weight: 300;
+   }
+   
+
+
+.footer_right{    
+    width: 7200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer_right> a{
+    color: black;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 790px) and (min-width: 400px){ 
+    .body_main{
+        flex-direction: column;
+        align-items: center;
+        }
+
+    .stories_div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .stories_div{
+        gap: 30px;
+        
+    }
+
+    .phylosophy> p{
+        width: 400px;
+    }
+
+    footer{
+        flex-direction: column;
+        
+    }
+  
+}
+
+
+
+
